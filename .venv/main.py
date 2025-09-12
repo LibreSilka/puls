@@ -3,7 +3,7 @@ from llama_cpp import Llama
 import json
 
 # Укажи путь к своему gguf-файлу модели (обычно это .gguf)
-MODEL_PATH = r"C:\Users\n.khrobostov\.lmstudio\models\lmstudio-community\DeepSeek-R1-0528-Qwen3-8B-GGUF\DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf"
+MODEL_PATH = r"\.lmstudio\models\lmstudio-community\DeepSeek-R1-0528-Qwen3-8B-GGUF\DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf"
 
 # Настроим Llama (число токенов и прочее можно менять)
 llm = Llama(model_path=MODEL_PATH, n_ctx=2048, n_threads=3,temperature=0.1,top_p=0.8,repeat_penalty=1.1, verbose=False)

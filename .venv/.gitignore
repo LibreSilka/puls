@@ -58,7 +58,7 @@ env/
 env.bak/
 venv.bak/
 scripts/
-
+s.py
 # IDEs
 .idea/
 *.iml
